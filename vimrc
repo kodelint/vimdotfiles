@@ -1,4 +1,4 @@
-plug#begin('~/.vim/plugged')
+call plug#begin('~/.vim/plugged')
 
 " Make sure you use single quotes
 Plug 'junegunn/seoul256.vim'

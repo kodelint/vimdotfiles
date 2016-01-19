@@ -9,4 +9,4 @@ echo "${ESCAPE}[32mLets create the symlink for ${ESCAPE}[32m.vimrc${ESCAPE}[0m"
 ln -s ${HOME}/.vimdotfiles/vimrc ${HOME}/.vimrc
 ln -s ${HOME}/.vimdotfiles/vim ${HOME}/.vim
 echo "${ESCAPE}[32mBoom plugins are on there way...${ESCAPE}[0m\n"
-/usr/local/bin/vim +PlugInstall +qall
+vim +PlugInstall +qall
