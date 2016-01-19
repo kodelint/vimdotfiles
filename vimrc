@@ -94,7 +94,7 @@ Plug 'vim-scripts/lastpos.vim'
 Plug 'vim-scripts/sudo.vim'
 Plug 'goldfeld/ctrlr.vim'
 Plug 'bling/vim-airline'
-Plug 'euclio/vim-markdown-composer', { 'do': function('BuildComposer') }
+Plug 'euclio/vim-markdown-composer'
 call plug#end()
 " 
 " This is for markdown-build composer"
