@@ -1,4 +1,4 @@
- plug#begin('~/.vim/plugged')
+plug#begin('~/.vim/plugged')
 
 " Make sure you use single quotes
 Plug 'junegunn/seoul256.vim'
@@ -94,6 +94,9 @@ Plug 'vim-scripts/lastpos.vim'
 Plug 'vim-scripts/sudo.vim'
 Plug 'goldfeld/ctrlr.vim'
 Plug 'bling/vim-airline'
+Plug 'euclio/vim-markdown-composer', { 'do': function('BuildComposer') }
+call plug#end()
+" 
 " This is for markdown-build composer"
 function! BuildComposer(info)
   if a:info.status != 'unchanged' || a:info.force
@@ -101,7 +104,4 @@ function! BuildComposer(info)
     UpdateRemotePlugins
   endif
 endfunction
-
-Plug 'euclio/vim-markdown-composer', { 'do': function('BuildComposer') }
-call plug#end()
 source ~/.vim/settings.vim
