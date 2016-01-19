@@ -9,9 +9,4 @@ echo "${ESCAPE}[32mLets create the symlink for ${ESCAPE}[32m.vimrc${ESCAPE}[0m"
 ln -s ${HOME}/.vimdotfiles/vimrc ${HOME}/.vimrc
 ln -s ${HOME}/.vimdotfiles/vim ${HOME}/.vim
 echo "${ESCAPE}[32mBoom plugins are on there way...${ESCAPE}[0m\n"
-# if [[ -f /usr/local/bin/nvim ]]
-# then
-#   nvim +PlugInstall +qall
-# else
-#   echo "${ESCAPE}[31m Please install nvim: brew install neovim/neovim/neovim${ESCAPE}[0m"
-# fi
+/usr/local/bin/vim +PlugInstall +qall
