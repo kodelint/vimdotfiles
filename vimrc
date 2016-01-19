@@ -1,3 +1,20 @@
+ plug#begin('~/.vim/plugged')
+
+" Make sure you use single quotes
+Plug 'junegunn/seoul256.vim'
+Plug 'junegunn/vim-easy-align'
+" On-demand loading
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
+
+" Using git URL
+Plug 'https://github.com/junegunn/vim-github-dashboard.git'
+
+" Using a non-master branch
+Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
+
+" Plugin options
+Plug 'nsf/gocode', { 'tag': 'v.20150303', 'rtp': 'vim' }
 Plug 'chrisbra/color_highlight'
 Plug 'bling/vim-airline'
 Plug 'morhetz/gruvbox'
@@ -6,7 +23,6 @@ Plug 'chriskempson/base16-vim'
 Plug 'sickill/vim-monokai'
 Plug 'nanotech/jellybeans.vim'
 Plug 'tomasr/molokai'
-" Required for Gblame in terminal vim
 Plug 'godlygeek/csapprox'
 Plug 'gregsexton/gitv'
 Plug 'mattn/gist-vim'
@@ -24,7 +40,6 @@ Plug 'jistr/vim-nerdtree-tabs'
 Plug 'scrooloose/nerdtree'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'xolox/vim-misc'
-"Plug 'xolox/vim-session'
 Plug 'ecomba/vim-ruby-refactoring'
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-rake'
@@ -79,7 +94,6 @@ Plug 'vim-scripts/lastpos.vim'
 Plug 'vim-scripts/sudo.vim'
 Plug 'goldfeld/ctrlr.vim'
 Plug 'bling/vim-airline'
-
 " This is for markdown-build composer"
 function! BuildComposer(info)
   if a:info.status != 'unchanged' || a:info.force
@@ -89,3 +103,5 @@ function! BuildComposer(info)
 endfunction
 
 Plug 'euclio/vim-markdown-composer', { 'do': function('BuildComposer') }
+call plug#end()
+source ~/.vim/settings.vim
