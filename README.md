@@ -20,4 +20,4 @@ ln -s ${HOME}/.vimdotfiles/vim ${HOME}/.vim
   <img src=http://i.imgur.com/5dIGKCw.jpg>
 
 ##Note:
-This is only for VIM using with `vim-plug` for more good stull look at [zmesh](https://github.com/git4sroy/zmesh.git).
+I personally use `neovim`, checkout my dotfiles repo for [neovim](https://github.com/git4sroy/nvim-dotfiles.git). This is only for VIM, not all the remote nodes I work on have [neovim](https://neovim.io) installed. For more good stuff look at [zmesh](https://github.com/git4sroy/zmesh.git), A [ZSH](http://www.zsh.org) Framework.
