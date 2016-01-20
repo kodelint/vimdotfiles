@@ -15,5 +15,9 @@ The `install_vim.sh` downloads `vim-plug` and the repo `vimdotfiles` and creates
 ln -s ${HOME}/.vimdotfiles/vimrc ${HOME}/.vimrc
 ln -s ${HOME}/.vimdotfiles/vim ${HOME}/.vim
 ```
+### Looks matters :)
+
+  <img src=http://i.imgur.com/5dIGKCw.jpg>
+
 ##Note:
 This is only for VIM using with `vim-plug` for more good stull look at [zmesh](https://github.com/git4sroy/zmesh.git).
