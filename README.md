@@ -18,6 +18,3 @@ ln -s ${HOME}/.vimdotfiles/vim ${HOME}/.vim
 ### Looks matters :)
 
   <img src=https://i.imgur.com/hgaLnXY.jpg>
-
-##Note:
-I personally use `neovim`, checkout my dotfiles repo for [neovim](https://github.com/kodelint/nvim-dotfiles.git). This is only for VIM, not all the remote nodes I work on have [neovim](https://neovim.io) installed. For more good stuff look at [zmesh](https://github.com/kodelint/zmesh.git), A [ZSH](http://www.zsh.org) Framework.
